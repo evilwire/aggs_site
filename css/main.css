@@ -6,17 +6,17 @@ html, body
 
 p
 {
-   font-size: 15px;
+   font-size: 20px;
    font-weight: 300;
    hyphens: auto;
 }
 
 table
 {
-   font-size: 11px;
    text-align: left;
    margin-bottom: 20px;
    color: #000;
+   font-size: 13px;
 }
 
 td
@@ -27,7 +27,7 @@ td
 
 .main-content
 {
-   width: 500px;
+   width: 550px;
    margin: 25px auto 0px;;
    text-align: justify;
 }
@@ -63,11 +63,6 @@ h2
    color: #28b;
    font-weight: 300;
    font-size: 35px;
-}
-
-ul
-{
-   font-size: 14px;
 }
 
 li
