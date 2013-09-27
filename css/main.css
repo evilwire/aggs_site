@@ -1,0 +1,29 @@
+html, body
+{
+   color: #555;
+}
+
+p
+{
+   font-size: 15px;
+   font-weight: 300;
+}
+
+.main-content
+{
+   width: 500px;
+   margin: 0px auto;
+   text-align: justify;
+}
+
+table
+{
+   font-size: 11px;
+   text-align: left;
+}
+
+td
+{
+   vertical-align: top;
+   padding: 2px 5px;
+}
