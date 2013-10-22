@@ -1,1 +1,6 @@
 *.sw*
+
+# ignore the latex files
+*.pdf
+*.aux
+*.log
