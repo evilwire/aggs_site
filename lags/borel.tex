@@ -1,0 +1,55 @@
+\begin{prop}[Ex. 17.8]
+Let $G$ be a unipotent algebraic group acting on an affine variety 
+$X$. Then all $G$-orbits are closed in $X$.
+\end{prop}
+
+\begin{proof}
+Suppose for a contradiction that some orbit $Y$ of $G$ is not
+closed, and let $\overline{Y}$ be its closure.
+
+Consider the action of $G$ on the structure ring $K[X]$ by 
+translation: $f \mapsto \lambda_x f$ where $\lambda_x f(y) = 
+f(x^{-1}y)$ (see 8.5, 8.6). 
+
+Let $I = I(\overline{Y})$, and let $J = I(\overline{Y} - Y)$.
+Since $\overline{Y} - Y \neq \varnothing$, $(1) \neq J \subsetneq 
+I$. We make two observations,
+
+\begin{enumerate}
+\item since $G$ acts on $Y$, $G$ acts on $\overline{Y}$ and 
+$\overline{Y} - Y$ by Proposition 8.3.
+
+\item since $G$ acts on $\overline{Y} - Y$ and $\overline{Y}$, 
+then $G$ acts on $I$ and $J$. In particular, $G$ also acts on
+$J/I$.
+\end{enumerate}
+
+By the proof of Proposition 8.6a), it is possible to find a
+finite dimension vector subspace $V \subset J/I$ closed under 
+$G$-action. In the case $G$ is unipotent, by Engel's Theorem
+(Proposition 17.5), there exists some nonzero $\varphi \in I/J$ 
+such that $\lambda_G \varphi = \varphi$.
+
+Note that $\varphi$ represents some function $f$ on $K[X]$ for
+which $f|_{\overline{Y} \neq 0$. The fact that $G$ stabilizes 
+$\varphi$ implies that $f|_Y$ is contant. Indeed, fix $y \in Y$;
+then $Gy = Y$, and for $y' \in Y$, $y' = g^{-1}y$ for some $g \in G$.
+Therefore, $f(y') = f(g^{-1}y) = \lambda_{g}f(y) = f(y)$.
+
+However, $f$ constant on $Y$ implies $f$ constant on $\overline{Y}$.
+That is $J = (1)$, a contradiction.
+\end{proof}
+
+In particular
+
+\begin{cor}
+Suppose $G$ is an unipotent algebraic group. All conjugacy 
+classes of $G$ are closed.
+\end{cor}
+\begin{proof}
+Let $G$ act on $G$ by conjugation.
+\end{proof}
+
+\begin{cor}
+$G$
+\end{cor}
