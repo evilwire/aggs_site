@@ -1,4 +1,4 @@
-\begin{prop}[Ex. 17.8]
+\begin{prop}[Ex. 17.8]\label{ex_17_8}
 Let $G$ be a unipotent algebraic group acting on an affine variety 
 $X$. Then all $G$-orbits are closed in $X$.
 \end{prop}
@@ -51,5 +51,20 @@ Let $G$ act on $G$ by conjugation.
 \end{proof}
 
 \begin{cor}
-$G$
+Connected unipotent algebraic groups have trivial character. 
+(See 11.4)
 \end{cor}
+\begin{proof}
+Let $G$ be an unipotent algebraic group, and let $\chi: G \to
+\Gm$ be character. Consider
+\[
+G \times \A^1 \stackrel{\chi \times 1} to \Gm \times \A^1 
+\stackrel{ \mu}{\to} \A^1
+\]
+where $\mu: \Gm \times \A^1 \to \A^1$ is given by $(r,s) \mapsto 
+rs$. This is a $G$ action on $\A^1$, and orbit of single nonzero
+points are closed by Prop. \ref{ex_17_8}, and connected since $G$
+is connected, hence $\A^1$ or a single point. The latter is impossible
+since the $G$-action factors through $\Gm$. It follows that $G$ must
+act trivially, whence $\chi$ must be trivial.
+\end{proof}
