@@ -31,7 +31,7 @@ $G$-action. In the case $G$ is unipotent, by Engel's Theorem
 such that $\lambda_G \varphi = \varphi$.
 
 Note that $\varphi$ represents some function $f$ on $K[X]$ for
-which $f|_{\overline{Y} \neq 0$. The fact that $G$ stabilizes 
+which $f|_{\overline{Y}} \neq 0$. The fact that $G$ stabilizes 
 $\varphi$ implies that $f|_Y$ is contant. Indeed, fix $y \in Y$;
 then $Gy = Y$, and for $y' \in Y$, $y' = g^{-1}y$ for some $g \in G$.
 Therefore, $f(y') = f(g^{-1}y) = \lambda_{g}f(y) = f(y)$.
@@ -47,7 +47,7 @@ Suppose $G$ is an unipotent algebraic group. All conjugacy
 classes of $G$ are closed.
 \end{cor}
 \begin{proof}
-Let $G$ act on $G$ by conjugation.
+Let $G$ act on $G$ by conjugation, the later being affine.
 \end{proof}
 
 \begin{cor}
@@ -58,8 +58,10 @@ Connected unipotent algebraic groups have trivial character.
 Let $G$ be an unipotent algebraic group, and let $\chi: G \to
 \Gm$ be character. Consider
 \[
-G \times \A^1 \stackrel{\chi \times 1} to \Gm \times \A^1 
-\stackrel{ \mu}{\to} \A^1
+\begin{diagram}
+G \times \A^1 &\rTo{\phantom{aaa}\chi \times 1\phantom{aaa}} &\Gm 
+\times \A^1 & \rTo{\phantom{aaaa}\mu\phantom{aaaa}} \A^1
+\end{diagram}
 \]
 where $\mu: \Gm \times \A^1 \to \A^1$ is given by $(r,s) \mapsto 
 rs$. This is a $G$ action on $\A^1$, and orbit of single nonzero
